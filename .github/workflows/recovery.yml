@@ -14,7 +14,7 @@ on:
     types: [started]
 
 env:
-  MANIFEST: https://github.com/SHRP/platform_manifest_twrp_omni -b v3_9.0
+  MANIFEST: git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-9.0
   DEVICE: r5x
   DT_LINK: https://github.com/adityaraut12/device_realme_r5x
   DT_PATH: device/realmeme/r5x
