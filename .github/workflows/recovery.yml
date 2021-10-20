@@ -16,7 +16,7 @@ on:
 env:
   MANIFEST: git://github.com/SHRP/platform_manifest_twrp_omni.git -b v3_9.0
   DEVICE: r5x
-  DT_LINK: https://github.com/Realme-RMX1911/device_realme_r5x
+  DT_LINK: https://github.com/adityaraut12/device_realme_r5x
   DT_PATH: device/realmeme/r5x
   KERNEL_LINK: https://github.com/realme-kernel-opensource/realme5-kernel-source
   KERNEL_PATH: kernel/realmeme/r5x
