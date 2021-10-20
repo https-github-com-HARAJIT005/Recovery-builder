@@ -15,13 +15,13 @@ on:
 
 env:
   MANIFEST: git://github.com/SHRP/platform_manifest_twrp_omni.git -b v3_9.0
-  DEVICE: a70q
-  DT_LINK: https://github.com/aswin11234/device-samsung-a70q
-  DT_PATH: device/samsung/a70q
-  KERNEL_LINK: https://github.com/Haky86/android_kernel_samsung_sm6150
-  KERNEL_PATH: kernel/samsung/a70q
+  DEVICE: r5x
+  DT_LINK: https://github.com/Realme-RMX1911/device_realme_r5x
+  DT_PATH: device/realmeme/r5x
+  KERNEL_LINK: https://github.com/realme-kernel-opensource/realme5-kernel-source
+  KERNEL_PATH: kernel/realmeme/r5x
   TARGET: recoveryimage
-  TZ: Asia/Kuching
+  TZ: Asia/Kolkata
 
 jobs:
   build:
